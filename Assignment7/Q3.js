@@ -14,8 +14,10 @@ function suffix(str1,str2){
 }
 
 
-let mystring1='swimming';
-let mystring2="walking";
+let mystring1= "walking";
+let mystring2='swimming';
 
 let myBrand=suffix(mystring1,mystring2);
 console.log(myBrand);
+
+

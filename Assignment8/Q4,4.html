@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>My Product</title>
+    <script>
+        function ShowAddress(){
+            let A1= document.getElementById('input1').value;
+            let A2= document.getElementById('input2').value;
+            let A3= document.getElementById('input3').value;
+            let A4=document.getElementById('input4').value;
+            let A5=document.getElementById('input5').value;
+            let fullAddress= A1+' '+A2 + ' '+A3 + ' '+A4 + ' '+A5;
+            document.getElementById('output').innerHTML=fullAddress;
+
+        }
+    </script>
+</head>
+
+<body>
+    Address1=<input id='input1' type="tesxt"><br/>
+    Address2=<input id='input2' type="tesxt"><br/>
+    Address3=<input id='input3' type="tesxt"><br/>
+    Address4=<input id='input4' type="tesxt"><br/>
+    Address5=<input id='input5' type="tesxt"><br/>
+    <button onclick=" ShowAddress()">Click Me</button>
+    <div id='output'></div><br/>
+    <textarea></textarea>
+   
+
+
+</body

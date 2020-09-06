@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>My Product</title>
+    <script>
+        function fullName(){
+            let FirstName= document.getElementById('fName').value;
+            let LastName=document.getElementById('lName').value;
+            let fullName=FirstName +"  "+LastName;
+            document.getElementById('output').innerHTML=fullName;
+
+        }
+    </script>
+</head>
+
+<body>
+    FirstName:<input id='fName' type="tesxt"><br/>
+    LastName:<input id='lName' type="tesxt">
+    <button onclick="fullName()">Click Me</button>
+    <div id="output"></div>
+   
+
+
+</body

@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Applied Scripture</title>
+  <script>
+      function applyScripture(){
+         Input=document.getElementById('input').value;
+         scripture="I, "+ Input + ", having been goodly parents, therefore i was tought in the learning of my father.";
+         output=scripture;
+         document.getElementById('output').innerHTML=output
+      }
+  </script>
+
+</head>
+
+<body>
+   Please enter your name: <input id='input' type="text" >
+    <button type="button" onclick="applyScripture()">Click Me</button>
+    <div id='output'></div>
+    <p>
+        <a href="https://validator.w3.org/check/referer">
+            <img src="http://mumstudents.org/cs472/images/w3c-html.png" alt="Validate" />
+            </a>
+    </p>
+</body>
+
+</html>

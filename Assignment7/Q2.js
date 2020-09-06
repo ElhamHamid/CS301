@@ -14,7 +14,7 @@ function prefix(str1,str2){
 }
 
 
-let mystring1='disaaable';
+let mystring1='disable';
 let mystring2="distasteful";
 
 let myBrand=prefix(mystring1,mystring2);
